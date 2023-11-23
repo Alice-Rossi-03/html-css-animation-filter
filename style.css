@@ -153,7 +153,24 @@
 /* secondo es completato */
 
 .ex-11-icon {
-    font-size: 60px;
+    font-size: 60px; 
+}
+
+.ex-11-icon:hover{
+    animation-name: second-spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes second-spin {
+    0%{
+        transform: rotate(-180deg);
+    } 50%{
+        transform: rotate(-90deg);
+    } 75%{
+        transform: rotate(270deg);
+    }
 }
 
 /* secondo es completato */
