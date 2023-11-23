@@ -114,21 +114,42 @@
 /* 7 es completato */
 /* 8 es completato */
 
-/* secondo es completato */
+/* 9 es */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s ease;
 }
 
-/* secondo es completato */
-/* secondo es completato */
+.ex-9-img:hover{
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 20px;
+    width: 600px;
+    margin: 20px 50px;
+}
+
+/* 9 es completato */
+
+/* 10 es */
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
 }
 
-/* secondo es completato */
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(-360deg);
+    }
+}
+
+/* 10 es completato */
 /* secondo es completato */
 
 .ex-11-icon {
