@@ -1,0 +1,172 @@
+/* 1 es */
+
+.ex-1-square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    transition: all 2s ease-out;
+}
+
+.ex-1-square:hover {
+    border: 1px solid red;
+    background-color: red;
+}
+
+/* 1 es completato */
+
+/* 2 es */
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 1.5s ease-out;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* 2 es completato */
+
+/* 3 es */
+
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 0.5s ease;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* 3 es completato */
+
+/* 4 es */
+
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: all 1s ease;
+}
+
+.ex-4-square:hover {
+    opacity: 0 ;
+}
+
+/* 4 es completato */
+
+/* 5 es */
+
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: all 1s ease;
+}
+
+.ex-5-square:hover {
+    width: 130px;
+    height: 130px; 
+}
+
+.ex-5-square:active {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* 5 es completato */
+
+/* 6 es */
+/* 7 es */
+/* 8 es */
+
+.ex-6-img, .ex-7-img, .ex-8-img {
+    width: 500px;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.es-7-img{
+    transition: all 1s ease;
+}
+
+.es-7-img:hover{ 
+    filter: grayscale(0.5);
+    filter: sepia(0.5);
+}
+
+/* 6 es completato */
+
+/* secondo es completato */
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+}
+
+/* secondo es completato */
+/* secondo es completato */
+
+.ex-10-icon {
+    font-size: 60px;
+}
+
+/* secondo es completato */
+/* secondo es completato */
+
+.ex-11-icon {
+    font-size: 60px;
+}
+
+/* secondo es completato */
+/* secondo es completato */
+
+.ex-12-button, .ex-13-button {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 70px;
+    text-transform: uppercase;
+    border: 3px solid #1b3c59;
+    color: #1b3c59;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* 11 es */
+
+/* 11 es completato */
+
+.ex-12-top-white, .ex-13-top-white {
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+
+/* 11 es completato */
+
+/* 12 es */
+
+.ex-12-bottom-white, .ex-13-bottom-white {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+/* 12 es completato */
