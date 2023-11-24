@@ -155,13 +155,15 @@
 }
 
 @keyframes mySecondSpin {
-    0%{transform: rotate(3/4);}
-    75%{transform: rotate(-3/4);}
-    100%{transform: rotate(3/4);}
+    0%{transform: rotate(270deg);}
+    90%{transform: rotate(-270deg);}
+    100%{transform: rotate(270deg);}
 }
 
-/* secondo es completato */
-/* secondo es completato */
+/* 11 es completato */
+
+
+/* 12 es -- 13 es */
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -177,9 +179,6 @@
     text-decoration: none;
 }
 
-/* 11 es */
-
-/* 11 es completato */
 
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
@@ -190,10 +189,6 @@
     height: 20px;
 }
 
-/* 11 es completato */
-
-/* 12 es */
-
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -202,4 +197,42 @@
     width: 60px;
     height: 20px;
 }
-/* 12 es completato */
+
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: moveLeft 1s linear infinite;
+}
+
+@keyframes moveLeft {
+    0‰{left:50px;}
+    50%{left: 100px;}
+    100%{left: 50px;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: moveRight 1s linear infinite;
+}
+
+@keyframes moveRight { 
+    0‰{right: 50px;}  
+    50%{right: 100px;} 
+    100%{right: 50px;} 
+}
+
+/* es 12 completato */
+
+
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: moveAngle 1s linear infinite;
+}
+
+/* @keyframes moveAngle {
+    0‰{right: 100px;} 
+    25‰{right: 100px;} 
+    50‰{bottom: 50px;} 
+    75%{bottom: 50px;}
+    100%{right: 100px;} 
+} */
+
+/* does not work */
