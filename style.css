@@ -135,42 +135,29 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+    animation: mySpin 1s linear infinite;
 }
 
-@keyframes spin {
-    from{
-        transform: rotate(0deg);
-    } to{
-        transform: rotate(-360deg);
-    }
+@keyframes mySpin {
+    100%{transform: rotate(360deg);}
 }
 
 /* 10 es completato */
-/* secondo es completato */
+
+/* 11 es */
 
 .ex-11-icon {
     font-size: 60px; 
 }
 
 .ex-11-icon:hover{
-    animation-name: second-spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation: mySecondSpin 1s linear infinite;
 }
 
-@keyframes second-spin {
-    0%{
-        transform: rotate(-180deg);
-    } 50%{
-        transform: rotate(-90deg);
-    } 75%{
-        transform: rotate(270deg);
-    }
+@keyframes mySecondSpin {
+    0%{transform: rotate(3/4);}
+    75%{transform: rotate(-3/4);}
+    100%{transform: rotate(3/4);}
 }
 
 /* secondo es completato */
